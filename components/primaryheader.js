@@ -15,6 +15,7 @@ const PrimaryHeader = ()=>(
         <div className="primary-header-content-options-1">
             <img src="/angular.png"/>
         </div>
+        <div className="primary-header-content-options-1-name">Angular</div>
         <div className="primary-header-content-options-2">
             <img src="/java.png"/>
         </div>

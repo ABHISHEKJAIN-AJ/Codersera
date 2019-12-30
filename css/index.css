@@ -69,7 +69,7 @@ html {
 .primary-header {
     background: url("/nav-bg.png");
     background-size: cover;
-    height: 62rem;
+    height: 63rem;
 }
 
 .primary-header-content {
@@ -138,11 +138,20 @@ html {
 .primary-header-content-text div span span {
     font-size: 2.5rem;
 }
+.primary-header-content-circle {
+    height: 40rem;
+    width: 42rem;
+    background: #d8d8d896;
+    clip-path: circle();
+    margin: 9rem 4rem 0 0;
+    transform: translate(1.5rem, -1rem);
+}
+
 
 .primary-header-content-options {
     width: 43rem;
     text-align: center;
-    margin-left: 15rem;
+    margin-left: 6rem;
 }
 
 .primary-header-content-options-1 {
