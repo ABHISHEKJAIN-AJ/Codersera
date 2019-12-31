@@ -301,7 +301,7 @@ html {
 .secondary-header {
     background:  url("/Rectangle.png"), white;
     background-size: cover;
-    padding: 6rem;
+    padding: 6rem 6rem 12rem 6rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -426,4 +426,54 @@ html {
 .align-circle-3 {
     float: left;
     transform: translate(-1.5rem, 18rem);
+}
+.section-steps-2-3 {
+    display: flex;
+    justify-content: center;
+}
+.section-steps-2-3-content {
+    width: 128rem;
+    padding: 6rem 6rem 0 6rem;
+    background: url("/step2-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section-steps-2-3-content-step-2 {
+    float: left;
+}
+.section-steps-2-3-content-step-3 {
+    float: right;
+    transform: translate(3rem,-15rem);
+}
+.section-steps-2-3-content-step-2-heading {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.color-white {
+    background: white;
+}
+.section-steps-2-3-content-step-2-content {
+    background: white;
+    width: 45rem;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    list-style-position: inside;
+    box-shadow: 0rem 0.1rem 1rem 2.3rem #23232309;
+    padding: 2rem 1rem 10rem 1.5rem;
+    margin-left: 10rem;
+}
+
+.section-steps-2-3-content-step-3-content {
+    background: white;
+    width: 50rem;
+    text-align: justify;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    list-style-position: inside;
+    box-shadow: 0rem 0.1rem 1rem 2.3rem #23232309;
+    padding: 2rem 1rem 6rem 1.5rem;
+    margin-left: 10rem;
 }
