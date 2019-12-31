@@ -19,25 +19,31 @@ const PrimaryHeader = ()=>(
         <div className="primary-header-content-options-2">
             <img src="/java.png"/>
         </div>
+        <div className="primary-header-content-options-2-name">Java</div>
         <div className="primary-header-content-options-3">
             <img src="/apple.png"/>
         </div>
+        <div className="primary-header-content-options-3-name">Ios</div>
         <div className="primary-header-content-options-4">
             <img src="/node.png"/>
         </div>
+        <div className="primary-header-content-options-4-name">Node</div>
         <div className="primary-header-content-options-5">
             <img src="/ruby.png"/>
         </div>
+        <div className="primary-header-content-options-5-name">Ruby</div>
         <div className="primary-header-content-options-6">
             <img src="/android.png"/>
         </div>
+        <div className="primary-header-content-options-6-name">Android</div>
         <div className="primary-header-content-options-7">
             <img src="/python.png"/>
         </div>
+        <div className="primary-header-content-options-7-name">Python</div>
         <div className="primary-header-content-options-8">
             <img src="/react.png"/>
         </div>
-
+        <div className="primary-header-content-options-8-name">React</div>
     </div>
     </div>
 </div> )

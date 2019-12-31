@@ -80,10 +80,9 @@ html {
     padding: 0 2rem;
     color: white;
     background-color: #2C2C2C81;
-    backdrop-filter:;
 }
 .primary-header-content-div {
-    transform: translate(0, 27rem);
+    transform: translateY(21rem);
 
 }
 .primary-header-content-div img {
@@ -94,7 +93,7 @@ html {
 .primary-header-content-text {
     width: 64rem;
     padding-left: 2rem;
-    padding-top: 5rem;
+    transform: translateY(-6rem);
 }
 
 .primary-header-content-text h2 {
@@ -139,19 +138,19 @@ html {
     font-size: 2.5rem;
 }
 .primary-header-content-circle {
-    height: 40rem;
-    width: 42rem;
+    height: 37rem;
+    width: 43rem;
     background: #d8d8d896;
     clip-path: circle();
     margin: 9rem 4rem 0 0;
-    transform: translate(1.5rem, -1rem);
+    transform: translate(1.5rem, -2rem);
 }
 
 
 .primary-header-content-options {
     width: 43rem;
     text-align: center;
-    margin-left: 6rem;
+    margin: 6rem 0 0 6rem;
 }
 
 .primary-header-content-options-1 {
@@ -160,8 +159,13 @@ html {
     height: 9rem;
     width: 9rem;
     float: left;
-    transform: translate(170%,-400%);
+    transform: translate(17rem, -43rem);
     padding: 1rem;
+}
+.primary-header-content-options-1-name {
+    transform: translate(10rem, -33rem);
+    font-size: initial;
+    float: left;
 }
 .primary-header-content-options-1 img {
     height: 100%;
@@ -173,8 +177,13 @@ html {
     height: 9rem;
     width: 9rem;
     float: left;
-    transform: translate(192%, -357%);
+    transform: translate(15rem, -38rem);
     padding: 1rem;
+}
+.primary-header-content-options-2-name {
+    transform: translate(8.5rem, -28rem);
+    font-size: initial;
+    float: left;
 }
 .primary-header-content-options-2 img {
     height: 100%;
@@ -186,8 +195,13 @@ html {
     height: 9rem;
     width: 9rem;
     float: left;
-    transform: translate(141%, -234%);
+    transform: translate(9rem, -26rem);
     padding: 1rem;
+}
+.primary-header-content-options-3-name {
+    transform: translate(3.5rem, -16rem);
+    font-size: initial;
+    float: left;
 }
 .primary-header-content-options-3 img {
     height: 100%;
@@ -199,8 +213,13 @@ html {
     height: 9rem;
     width: 9rem;
     float: left;
-    transform: translate(-21%, -125%);
+    transform: translate(30rem, -23rem);
     padding: 1rem;
+}
+.primary-header-content-options-4-name {
+    transform: translate(23.5rem, -13rem);
+    font-size: initial;
+    float: left;
 }
 .primary-header-content-options-4 img {
     height: 100%;
@@ -212,8 +231,13 @@ html {
     height: 9rem;
     width: 9rem;
     float: left;
-    transform: translate(164%, -180%);
+    transform: translate(5rem, -17rem);
     padding: 1rem;
+}
+.primary-header-content-options-5-name {
+    transform: translate(-1.5rem, -7rem);
+    font-size: initial;
+    float: left;
 }
 .primary-header-content-options-5 img {
     height: 100%;
@@ -225,8 +249,13 @@ html {
     height: 9rem;
     width: 9rem;
     float: left;
-    transform: translate(-50%, -225%);
+    transform: translate(-20rem, -23rem);
     padding: 1rem;
+}
+.primary-header-content-options-6-name {
+    transform: translate(-26.5rem, -13rem);
+    font-size: initial;
+    float: left;
 }
 .primary-header-content-options-6 img {
     height: 100%;
@@ -238,8 +267,13 @@ html {
     height: 9rem;
     width: 9rem;
     float: left;
-    transform: translate(-200%, -340%);
+    transform: translate(0rem, -44rem);
     padding: 1rem;
+}
+.primary-header-content-options-7-name {
+    transform: translate(-7.5rem, -34rem);
+    font-size: initial;
+    float: left;
 }
 .primary-header-content-options-7 img {
     height: 100%;
@@ -251,8 +285,13 @@ html {
     height: 9rem;
     width: 9rem;
     float: left;
-    transform: translate(-260%, -454%);
+    transform: translate(-9rem, -55rem);
     padding: 1rem;
+}
+.primary-header-content-options-8-name {
+    transform: translate(-15.5rem, -45rem);
+    font-size: initial;
+    float: left;
 }
 .primary-header-content-options-8 img {
     height: 100%;
@@ -260,7 +299,8 @@ html {
 }
 
 .secondary-header {
-    background-color: white;
+    background:  url("/Rectangle.png"), white;
+    background-size: cover;
     padding: 6rem;
     text-align: center;
     display: flex;
@@ -272,7 +312,6 @@ html {
     justify-content: center;
     flex-direction: column;
     width: 128rem;
-    background: url("/Rectangle.png");
     text-align: center;
 }
 
@@ -373,16 +412,18 @@ html {
     background: #283235;
     height: 3rem;
     clip-path: circle();
-    float: left;
 }
 
 .align-circle-1 {
-    transform: translate(59.8rem, 13rem);
+    float: right;
+    transform: translate(1.5rem, 13rem);
 }
 
 .align-circle-2 {
+    float: left;
     transform: translate(-1.4rem, 6rem);
 }
 .align-circle-3 {
+    float: left;
     transform: translate(-1.5rem, 18rem);
 }
