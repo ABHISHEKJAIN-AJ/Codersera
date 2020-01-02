@@ -5,6 +5,7 @@ import PrimaryHeader from '../components/primaryheader'
 import '../css/index.css'
 import SecondaryHeader from "../components/secondaryheader";
 import SectionSteps2_3 from "../components/sectionsteps2-3";
+import SectionCoders from "../components/sectioncoders";
 
 const Home = () => (
   <div>
@@ -17,7 +18,7 @@ const Home = () => (
     <PrimaryHeader/>
     <SecondaryHeader/>
     <SectionSteps2_3/>
-    <div></div>
+    <SectionCoders/>
 
   </div>
 )

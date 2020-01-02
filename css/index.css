@@ -477,3 +477,111 @@ html {
     padding: 2rem 1rem 6rem 1.5rem;
     margin-left: 10rem;
 }
+
+.section-coders {
+    display: flex;
+    justify-content: center;
+}
+.section-coders-div {
+    width: 128rem;
+}
+.section-coders-heading {
+    font-size: 3.8rem;
+    color: #303D41;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+}
+
+.section-coders-bg {
+    background: url(/map.png);
+    background-size: cover;
+    height: 62rem;
+    margin: 0 12rem;
+}
+.section-coders-content {
+    background: #ECECEC59 ;
+    transform: translateY(-50rem);
+    height: 40rem;
+}
+.section-coders-heading {
+    text-align: center;
+}
+
+.section-coders-content-coder-image {
+    height: 11rem;
+    width: 11rem;
+    float: left;
+    border-radius: 50%;
+    border: .1rem solid #979797;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.61);
+}
+
+.coder1-position {
+    background: url("/coder1.png");
+    background-size: cover;
+    transform: translate(13rem, -8rem);
+
+}
+.coder2-position {
+    background: url("/coder.png");
+    background-size: cover;
+    transform: translate(24rem, 4rem);
+
+}
+.coder3-position {
+    background: url("/coder3.png");
+    background-size: cover;
+    transform: translate(34rem, -8rem);
+
+}
+.coder4-position {
+    background: url("/coder4.png");
+    background-size: cover;
+    transform: translate(44rem, 5rem);
+}
+.coder5-position {
+    background: url("/coder5.png");
+    background-size: cover;
+    transform: translate(53rem, -7rem);
+}
+
+
+.section-coders-content-coder-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    background: white;
+    border-radius: .5rem;
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.61);
+    float: left;
+    width: 21rem;
+    height: 25rem;
+    text-align: center;
+}
+.coder-name {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.coder-det-1 {
+    height: 2.5rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    background: #2E5052;
+}
+.coder-det-2 {
+    height: 2.5rem;
+    width: 45%;
+    border-radius: .5rem;
+    padding: .5rem;
+    background: #2E5052;
+}
+.coder-det {
+    display: flex;
+    justify-content: space-between;
+}
+.coder-profile {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
