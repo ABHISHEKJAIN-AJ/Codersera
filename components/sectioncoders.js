@@ -7,7 +7,7 @@ const SectionCoders = () => (<div className="section-coders">
             <div className="section-coders-content">
                 <div className="section-coders-content-coder">
                     <div className="section-coders-content-coder-image coder1-position"></div>
-                    <div className="section-coders-content-coder-details ">
+                    <div className="section-coders-content-coder-details coder1-detail-position">
                         <div className="coder-name">Abhishek jain</div>
                         <div className="coder-det-1">5 Years</div>
                         <div className="coder-det">
@@ -25,7 +25,7 @@ const SectionCoders = () => (<div className="section-coders">
                 </div>
                 <div className="section-coders-content-coder">
                     <div className="section-coders-content-coder-image coder2-position"></div>
-                    <div className="section-coders-content-coder-details">
+                    <div className="section-coders-content-coder-details coder2-detail-position">
                         <div className="coder-name">Abhishek jain</div>
                         <div className="coder-det-1">5 Years</div>
                         <div className="coder-det">
@@ -43,7 +43,7 @@ const SectionCoders = () => (<div className="section-coders">
                 </div>
                 <div className="section-coders-content-coder">
                     <div className="section-coders-content-coder-image coder3-position"></div>
-                    <div className="section-coders-content-coder-details">
+                    <div className="section-coders-content-coder-details coder3-detail-position">
                         <div className="coder-name">Abhishek jain</div>
                         <div className="coder-det-1">5 Years</div>
                         <div className="coder-det">
@@ -61,7 +61,7 @@ const SectionCoders = () => (<div className="section-coders">
                 </div>
                 <div className="section-coders-content-coder">
                     <div className="section-coders-content-coder-image coder4-position"></div>
-                    <div className="section-coders-content-coder-details">
+                    <div className="section-coders-content-coder-details coder4-detail-position">
                         <div className="coder-name">Abhishek jain</div>
                         <div className="coder-det-1">5 Years</div>
                         <div className="coder-det">
@@ -79,7 +79,7 @@ const SectionCoders = () => (<div className="section-coders">
                 </div>
                 <div className="section-coders-content-coder">
                     <div className="section-coders-content-coder-image coder5-position"></div>
-                    <div className="section-coders-content-coder-details">
+                    <div className="section-coders-content-coder-details coder5-detail-position">
                         <div className="coder-name">Abhishek jain</div>
                         <div className="coder-det-1">5 Years</div>
                         <div className="coder-det">
