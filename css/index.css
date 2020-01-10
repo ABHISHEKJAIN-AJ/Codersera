@@ -5,8 +5,13 @@
 }
 
 html {
-    font-size: 62.5%;
-    font-family: sans-serif;
+    font-size: 10px;
+    font-family: montserrat;
+}
+
+
+.app-home {
+    height: 499rem;
 }
 .nav {
     /*position: fixed; */
@@ -16,6 +21,7 @@ html {
     padding-top: .8rem;
     padding-left: 2rem;
     font-size: 1.4rem;
+
     color: white;
 }
 
@@ -136,6 +142,7 @@ html {
 }
 .primary-header-content-text div span span {
     font-size: 2.5rem;
+
 }
 .primary-header-content-circle {
     height: 37rem;
@@ -613,7 +620,7 @@ html {
 }
 .section-coders-apart-content-heading {
     text-align: center;
-    font-size: 6rem;
+    font-size: 4.5rem;
     text-transform: uppercase;
     color: #303D41;
     padding-bottom: 6rem;
@@ -645,4 +652,164 @@ html {
 .section-coders-apart-content-card-name {
     text-shadow: 0 1rem 2rem rgba(0,0,0,.5);
     font-size: 2rem;
+}
+.section-take-our-words {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-31rem);
+}
+.section-take-our-words-content {
+    width: 128rem;
+}
+.section-take-our-words-content-heading {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding-bottom: 7rem;
+}
+.section-take-our-words-content-div {
+    background: #303D4141;
+    width: 128rem;
+    height: 37rem;
+}
+
+.section-take-our-words-content-div-video {
+    transform: translate(8rem, -2rem);
+    border-radius: .5rem;
+}
+.section-take-our-words-content-div-card {
+    background: white;
+    width: 26rem;
+    height: 26rem;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    float: right;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0,.5);
+    position: relative;
+}
+
+.section-take-our-words-content-div-card-user {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.section-take-our-words-content-div-card-user-img {
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem;
+}
+.section-take-our-words-content-div-card-user-detail-stars {
+    width: 50%;
+    margin-top: 1.5rem;
+}
+.section-take-our-words-content-div-card-content div {
+    height: 4rem;
+    font-size: 6rem;
+}
+.section-take-our-words-content-div-card-content {
+    text-shadow: 0 1rem 2rem rgba(0,0,0,.5);
+}
+.card-translate-1 {
+    transform: translate(-20rem, 5rem);
+    z-index: 3;
+}
+.card-translate-2 {
+    transform: translate(12rem, 2rem);
+    z-index: 2;
+}
+.card-translate-3 {
+    transform: translate(-14rem, -29rem);
+    z-index: 1;
+}
+
+.section-take-our-words-content-div-card-slider {
+    width: 2rem;
+    height: 2rem;
+    background: gray;
+    clip-path: circle();
+    float: right;
+}
+
+.slider-position-1 {
+    transform: translate(-7rem,33rem);
+}
+.slider-position-2 {
+    transform: translate(25rem, 33rem);
+}
+.slider-position-3 {
+    transform: translate(1rem,-1rem);
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #303D41;
+    height: 33rem;
+    transform: translateY(-51rem);
+    padding: 2rem 4rem;
+}
+.footer-content {
+    width: 128rem;
+}
+.footer-content-heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+.head1 {
+    font-size: 2rem;
+    width: 21%;
+    color: #D8D8D8;
+}
+.footer-content-line {
+    border: .1rem solid #D8D8D8;
+}
+.footer-content-sub-heading {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: #D8D8D8;
+    padding: 1.5rem 0 6rem 0;
+}
+.sub-head {
+    font-size: 1.8rem;
+}
+.footer-content-sub-heading div {
+    width: 21%;
+}
+.footer-content-sub-heading div span {
+    display: block;
+}
+.footer-content-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #D8D8D8;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+.slider-radio {
+    display: none;
+}
+.slider-radio:checked + label > .section-take-our-words-content-div-card{
+    z-index: 10;
+}
+.slider-radio:checked + label > .section-take-our-words-content-div-card-slider{
+    height: 3rem;
+    width: 3rem;
+    background: white;
+
 }

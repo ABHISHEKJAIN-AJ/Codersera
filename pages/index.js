@@ -2,7 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 import PrimaryHeader from '../components/primaryheader'
-import '../css/index.css'
+// import '../css/index.css'
+import '../scss/main.scss'
 import SecondaryHeader from "../components/secondaryheader";
 import SectionSteps2_3 from "../components/sectionsteps2-3";
 import SectionCoders from "../components/sectioncoders";
@@ -10,11 +11,14 @@ import SectionCodersApart from "../components/sectioncodersapart";
 import SectionTakeOurWords from "../components/sectiontakeourwords";
 import Footer from "../components/footer";
 
+
+
 const Home = () => (
-  <div>
+  <div className="app-home">
     <Head>
       <title>Home</title>
-      <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway|Rubik&display=swap" rel="stylesheet"/>
+
     </Head>
 
     <Nav/>
@@ -25,6 +29,7 @@ const Home = () => (
     <SectionCodersApart/>
     <SectionTakeOurWords/>
     <Footer/>
+
   </div>
 )
 
