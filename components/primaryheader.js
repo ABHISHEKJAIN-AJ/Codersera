@@ -9,7 +9,7 @@ const PrimaryHeader = ()=>(
         <p>We are a global community of the best technocrats from the software industry, who are driven by the learning agenda for continuous growth and improvement in one’s domain area. We take great pride in the skills and expertise of our Coders, Designers, CTOs, PMs and QAs who deliver the best in the business.</p>
         <div><h7>Try a 7 day Trial</h7><span><b>Know More</b><span>&#187;</span></span></div>
     </div>
-        <div className="primary-header-content-div"><img src="/site-dropdown.png"/></div>
+        <a className="primary-header-content-div" href="#ReasonsToHire"><img src="/site-dropdown.png"/></a>
     <div className="primary-header-content-options">
         <div className="primary-header-content-circle"></div>
         <div className="primary-header-content-options-1">

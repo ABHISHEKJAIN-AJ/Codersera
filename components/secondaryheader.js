@@ -1,5 +1,5 @@
 const SecondaryHeader=()=>(
-    <div className="secondary-header">
+    <div className="secondary-header" id="ReasonsToHire">
         <div className="secondary-header-content">
         <h1>3 Reasons to hire coders from Codersera</h1>
             <div className="secondary-header-content-heading"><span className="secondary-header-content-steps">1</span><h4>Strict screening & vetting process</h4></div>
