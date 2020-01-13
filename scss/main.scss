@@ -1,5 +1,5 @@
 
-
+@import "pages/mob";
 
 
 
@@ -828,7 +828,7 @@ html {
 .section-take-our-words {
   display: flex;
   justify-content: center;
-  height: 80rem;
+  height: 52rem;
 
   &-content {
     width: 128rem;
@@ -949,7 +949,6 @@ html {
   justify-content: center;
   background: #303D41;
   height: 36rem;
-  transform: translateY(-28rem);
   padding: 2rem 4rem;
   font-family: "Open Sans";
 
@@ -1028,3 +1027,10 @@ html {
 }
 
 
+
+.about-primary-header {
+  background: url("/hello-img.png");
+  background-size: cover;
+  height: 30rem;
+
+}
