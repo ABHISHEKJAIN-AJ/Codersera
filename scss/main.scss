@@ -1,5 +1,4 @@
 
-@import "pages/mob";
 
 
 
@@ -21,13 +20,13 @@ html {
 .app-home {
   height: 492rem;
 }
+
 .nav {
   background: linear-gradient(to bottom right,#607B7D,#8EB9BC);
   height: 7.5rem;
   padding-top: .8rem;
   padding-left: 2rem;
   font-size: 1.4rem;
-
   color: white;
 }
 
@@ -41,7 +40,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 128rem;
+  width: 126rem;
   margin: 0 auto;
 
   &-list {
@@ -64,7 +63,6 @@ html {
   display: flex;
   justify-content: space-evenly;
   width: 40rem;
-  margin-right: 3rem;
 }
 
 .btn {
