@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: px;
     font-family: montserrat;
 }
 
@@ -790,16 +790,16 @@ html {
     padding-top: 1rem;
 }
 
-@media screen and (max-width: 1024px) {
-    html {
-        font-size: 8px;
-    }
-}
-@media screen and (max-width: 1200px) {
-    html {
-        font-size: 9px;
-    }
-}
+/*@media screen and (mix-width: 1024px) {*/
+/*    html {*/
+/*        font-size: 8px;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 1200px) {*/
+/*    html {*/
+/*        font-size: 9px;*/
+/*    }*/
+/*}*/
 
 .slider-radio {
     display: none;

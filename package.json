@@ -10,12 +10,14 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
+    "amp-custom": "^1.2.6",
     "next": "9.1.6",
     "next-images": "^1.2.0",
     "ngrok": "^3.2.7",
     "node-sass": "^4.13.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "sass-loader": "^8.0.0"
+    "sass-loader": "^8.0.0",
+    "styled-components": "^5.0.0"
   }
 }
