@@ -286,7 +286,7 @@ export default class MyDocument extends Document {
                             
                         .mob-section-coders-content-coder-img {
                             height: 15rem;
-                            width: 15rem;
+                            max-width: 15rem;
                             border-radius: 7.5rem;
                             box-shadow: 0 0.7rem 1.7rem rgba(0,0,0,.61);
                             margin: 2rem auto;
@@ -304,7 +304,8 @@ export default class MyDocument extends Document {
                             }
                             
                         .coder-detail {
-                            padding: 3rem;
+                            padding: 2.5rem;
+                            text-align: justify;
                             }
                             
                         .mob-section-coders-content-coder-details {
@@ -314,7 +315,86 @@ export default class MyDocument extends Document {
                             border-radius: .5rem;
                             box-shadow: 0 .2rem .4rem rgba(0,0,0,.5);
                             }
+                            
+                        .mob-section-steps-2-3 {
+                            margin-top: 6rem;
+                            background: url("/Rectangle2.png");
+                            background-size: cover;
+                            }
+                            
+                        .mob-section-steps-2-3-content-heading {
+                            font-size: 6rem;
+                            font-family: montserrat;
+                            text-transform: uppercase;
+                            text-align: center;
+                            }
+                            
+                        .mob-section-steps-2-3-content {
+                            margin: 10rem 0 16rem 0;
+                            background: #D8D8D8;
+                            }
+                            
+                        .mob-section-steps-2-3-content-step {
+                            max-width: 100rem;
+                            background: white;
+                            border-radius: 1rem;
+                            box-shadow: 0 0 .4rem .4rem rgba(0,0,0,.1);
+                            margin: 0 auto;
+                            transform: translateY(-4rem);
+                            text-align: justify;
+                            padding: 5rem 7rem 12rem 5rem;
+                            font-size: 4rem;
+                            font-family: "Open Sans";
+                            }
        
+                        .mob-section-steps-2-3-content-step ol{
+                            list-style-position: inside;
+                            }
+                            
+                        .mob-section-coders-apart {
+                            text-align: center;
+                            background: linear-gradient(to bottom , #8CB6B9 , #627D80);
+                            }
+                        
+                        .mob-section-coders-apart-heading {
+                            font-size: 6rem;
+                            font-family: montserrat;
+                            color: white;
+                            padding-top: 8rem;
+                            text-transform: uppercase;
+                            }
+                            
+                        .mob-section-coders-apart-features {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            padding: 10rem 0;
+                            }
+                            
+                        .mob-section-coders-apart-card {
+                            width: 50rem;
+                            margin: 3rem 5rem;
+                            padding: 2rem;
+                            border-radius: 1rem;
+                            background: white;
+                            }
+                            
+                        .mob-section-coders-apart-card-image {
+                            max-width: 30rem;
+                            height: 35rem;
+                            margin: 3rem auto;
+                            }
+                            
+                        .mob-section-coders-apart-card-image amp-img {
+                            height: 100%;
+                            width: 100%;
+                            }
+                            
+                        .mob-section-coders-apart-card-name {
+                            font-size: 4rem;
+                            margin: 0 auto;
+                            max-width: 20rem;
+                            }
            `
                     }} />
                 </>

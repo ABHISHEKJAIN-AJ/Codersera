@@ -15,6 +15,8 @@ import MobNav from "../components/mobnav";
 import MobPrimaryHeader from "../components/mobprimaryheader";
 import MobSecondaryHeader from "../components/mobsecondaryheader";
 import MobSectionCoders from "../components/mobsectioncoders";
+import MobSectionSteps2_3 from "../components/mobsectionsteps2-3";
+import MobSectionCodersApart from "../components/mobsectioncodersapart";
 
 export const config = { amp: 'hybrid' };
 
@@ -51,6 +53,8 @@ const Home = () => {
         <MobPrimaryHeader/>
         <MobSecondaryHeader/>
         <MobSectionCoders/>
+        <MobSectionSteps2_3/>
+        <MobSectionCodersApart/>
 
         </div>
         ):
