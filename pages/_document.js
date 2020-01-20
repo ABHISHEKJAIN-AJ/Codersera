@@ -372,7 +372,7 @@ export default class MyDocument extends Document {
                             }
                             
                         .mob-section-coders-apart-card {
-                            width: 50rem;
+                            width: 35rem;
                             margin: 3rem 5rem;
                             padding: 2rem;
                             border-radius: 1rem;
@@ -380,8 +380,8 @@ export default class MyDocument extends Document {
                             }
                             
                         .mob-section-coders-apart-card-image {
-                            max-width: 30rem;
-                            height: 35rem;
+                            max-width: 25rem;
+                            height: 30rem;
                             margin: 3rem auto;
                             }
                             
@@ -393,8 +393,13 @@ export default class MyDocument extends Document {
                         .mob-section-coders-apart-card-name {
                             font-size: 4rem;
                             margin: 0 auto;
+                            color: #303D41;
+                            text-shadow: 0 0.2rem 0.2rem rgba(0,0,0,.5);
                             max-width: 20rem;
                             }
+                            
+                        .mob-section-take-our-words-content-heading {
+                            text-align: center;
            `
                     }} />
                 </>

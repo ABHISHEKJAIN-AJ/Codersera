@@ -1,10 +1,3 @@
-// const slide=(e)=>{
-//     e.target.style.background= "white";
-//     e.target.style.height="3rem";
-//     e.target.style.width="3rem";
-//     e.target.style.transform="translate(-7.5rem, 32.5rem)";
-//     document.getElementsByClassName("card-translate-1").style.zIndex=10
-// }
 
 
 const SectionTakeOurWords = () => (
