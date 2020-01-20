@@ -15,7 +15,7 @@ const About = () => (
         </Head>
 
         <Nav/>
-<AboutPrimaryHeader/>
+         <AboutPrimaryHeader/>
         <Footer/>
 
     </div>
